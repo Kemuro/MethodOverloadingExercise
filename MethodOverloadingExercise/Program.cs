@@ -6,7 +6,7 @@ namespace MethodOverloadingExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(12.45, 45.012));
+            Console.WriteLine(Add(12.45m, 45.012m)); //decimals end with 'm'
         }
         public static int Add(int x, int y)
         {
